@@ -40,7 +40,7 @@ void Print (string [] array)
 Console.Write ("Please print your elements with split (,): ");
 string userSimbols = Console.ReadLine();
 string[] arraySimb = GetArrayStringConsole(userSimbols);
-Console.Write ();
+Console.WriteLine ();
 Console.Write ("Your elements were sorted and now you've got new string with elements that have got 3 or less simbols in it: ");
 Print (GetArraySort (arraySimb));
 
